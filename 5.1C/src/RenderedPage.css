@@ -1,0 +1,64 @@
+.new-post-container {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #f9fbfc;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.newpost-label {
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.newpost-input,
+.newpost-textarea {
+  width: 50%;
+  padding: 12px 14px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: white;
+  color: black;
+}
+
+.newpost-input:focus,
+.newpost-textarea:focus {
+  border-color: black;
+  border: 2px black solid;
+  outline: none;
+}
+
+.newpost-textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.newpost-confirm {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 0 4px #333;
+}
+
+.newpost-confirm:hover {
+  background: white;
+  color: black;
+}
+
+.newpost-confirm:active
+{
+  transform: translateY(2px);
+  box-shadow: 0 2px #333;
+}
+
