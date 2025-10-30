@@ -1,0 +1,45 @@
+.newsletter-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsletter-form {
+  margin-top: 30px;
+}
+
+.email-input {
+  padding: 10px;
+  width: 280px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.email-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 20px;
+  color: #333;
+  font-weight: 500;
+}
